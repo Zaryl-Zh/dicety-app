@@ -1,11 +1,11 @@
 import React from 'react'
-import AddMeal from './AddMeal'
+import MealCard from './MealCard'
 import GenerateMenu from './GenerateMenu'
 
 const MainPage = () => {
   return (
     <div>
-     <AddMeal/>
+     <MealCard/>
      <GenerateMenu/>
     </div>
   )
